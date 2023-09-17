@@ -3,7 +3,7 @@ let mailId="kalesha2@gmail.com"    //let and var will be change after initializi
 var accountPassword="hai"
 accountCity="bengaluru"        // it will be executive without giving the keyword or datatype for the variable
 
-console.log(accountId) 
+console.log(accountId)         //let,var,const are the keywords
 
 let subject;                        //without giving value the node.js will understand it as "undefined" value
 mailId="kalesha222@gmail.com" 
@@ -12,3 +12,4 @@ console.table([accountId,accountPassword,mailId,accountId,subject])
 
 //console.log() is used to print the given values
 //console.table([]) is used to orint the values in table formate
+// prefer not to use "var" keyword because of issues in block scope and functional scope
