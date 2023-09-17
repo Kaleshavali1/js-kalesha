@@ -1,0 +1,14 @@
+const accountId=12334              //after initialization it will not change
+let mailId="kalesha2@gmail.com"    //let and var will be change after initializing the values
+var accountPassword="hai"
+accountCity="bengaluru"        // it will be executive without giving the keyword or datatype for the variable
+
+console.log(accountId) 
+
+let subject;                        //without giving value the node.js will understand it as "undefined" value
+mailId="kalesha222@gmail.com" 
+
+console.table([accountId,accountPassword,mailId,accountId,subject])
+
+//console.log() is used to print the given values
+//console.table([]) is used to orint the values in table formate
