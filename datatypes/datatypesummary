@@ -1,0 +1,50 @@
+//  Primitive
+
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggedIn = false
+const outsideTemp = null
+
+/* Null is an object in JavaScript and represents primitive data types.
+   A null value in JavaScript is used for referring absence of any object value and if any function or variable
+    returns null, then we can infer that the object could not be created.  */
+
+    let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
+console.log(typeof anotherId);
+
+/* = is used for assigning values to a variable, == is used for comparing two variables,
+ but it ignores the datatype of variable whereas === is used for comparing two variables, 
+ but this operator also checks datatype and compares two values.  */
+
+ // const bigNumber = 3456543576654356754n
+
+
+// Reference (Non primitive)
+
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"];
+console.log(heros[1])
+let myObj = {
+    name: "hitesh",
+    age: 22,
+}
+console.table(myObj);
+
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+myFunction();
+
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
